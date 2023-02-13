@@ -1,4 +1,4 @@
-group 'com.example.2gis_native'
+group 'com.example.gis_native'
 version '1.0-SNAPSHOT'
 
 buildscript {

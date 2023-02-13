@@ -1,4 +1,4 @@
-package com.example.2gis_native
+package com.example.gis_native
 
 import android.content.Context
 import android.hardware.Sensor

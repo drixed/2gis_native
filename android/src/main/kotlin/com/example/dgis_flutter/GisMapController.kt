@@ -1,4 +1,4 @@
-package com.example.2gis_native
+package com.example.gis_native
 
 import android.graphics.BitmapFactory
 import io.flutter.Log

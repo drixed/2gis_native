@@ -29,7 +29,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.2gis_native
+        package: com.example.gis_native
         pluginClass: TwogisFlutterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:

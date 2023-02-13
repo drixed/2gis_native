@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.example.2gis_native">
+  package="com.example.gis_native">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 </manifest>
