@@ -1,4 +1,4 @@
-import 'package:two_gis_flutter/two_gis_flutter.dart';
+import 'package:gis_flutter/gis_flutter.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';

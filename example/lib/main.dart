@@ -1,8 +1,8 @@
 import 'dart:developer';
 import 'dart:typed_data';
 import 'dart:ui';
-import 'package:two_gis_flutter/two_gis_flutter.dart';
-import 'package:two_gis_flutter_example/assets_constant.dart';
+import 'package:gis_flutter/gis_flutter.dart';
+import 'package:gis_flutter_example/assets_constant.dart';
 import 'package:flutter/material.dart';
 
 void main() {

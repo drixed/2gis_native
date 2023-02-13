@@ -1,4 +1,4 @@
-# two_gis_flutter
+# gis_flutter
 
 Plugin sdk 2gis
 
