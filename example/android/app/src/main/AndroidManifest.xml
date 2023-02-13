@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.native_add_example">
+    package="com.example.2gis_native_example">
    <application
-        android:label="native_add_example"
+        android:label="dgis_flutter_example"
         android:name="${applicationName}"
+        android:requestLegacyExternalStorage="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

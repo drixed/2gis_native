@@ -7,4 +7,4 @@ version:
   revision: c860cba910319332564e1e9d470a17074c1f2dfd
   channel: unknown
 
-project_type: plugin
+project_type: app

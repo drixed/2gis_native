@@ -1,4 +1,4 @@
-group 'com.example.native_add'
+group 'com.example.2gis_native'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -9,15 +9,18 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.android.tools.build:gradle:4.1.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
-allprojects {
+rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://artifactory.2gis.dev/sdk-maven-release"
+        }
     }
 }
 
@@ -25,6 +28,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+
+    packagingOptions {
+        exclude "META-INF/DEPENDENCIES"
+    }
+
     compileSdkVersion 31
 
     compileOptions {
@@ -41,6 +49,12 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
     }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'ru.dgis.sdk:sdk-full:2.8.0'
+    implementation "com.google.android.gms:play-services-location:17.1.0"
 }
