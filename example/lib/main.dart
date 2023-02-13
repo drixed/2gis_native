@@ -78,8 +78,8 @@ class _GisScreenState extends State<GisScreen> {
               if (!snapshot.hasData) return const SizedBox();
               list = snapshot.data!;
               return GisMap(
-                directoryKey: 'rusvou2177',
-                mapKey: 'd3d010dd-e6d7-4e24-b156-fb09fd27a6c3',
+                directoryKey: 'rubyqf9316',
+                mapKey: 'b7272230-6bc3-47e9-b24b-0eba73b12fe1',
                 useHybridComposition: true,
                 controller: controller,
                 onTapMarker: (marker) {
