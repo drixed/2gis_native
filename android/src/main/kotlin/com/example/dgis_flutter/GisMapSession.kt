@@ -1,4 +1,4 @@
-package com.example.gis_native
+package com.example.gisnative
 
 import android.annotation.SuppressLint
 import ru.dgis.sdk.map.MapView

@@ -1,4 +1,4 @@
-package com.example.gis_native
+package com.example.gisnative
 
 import android.content.Context
 import androidx.annotation.NonNull

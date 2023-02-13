@@ -1,4 +1,4 @@
-package com.example.gis_native
+package com.example.gisnative
 
 import android.Manifest
 import android.content.Context
