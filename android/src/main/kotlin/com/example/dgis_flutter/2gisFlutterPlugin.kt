@@ -10,8 +10,8 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
-/** 2gisFlutterPlugin */
-class 2gisFlutterPlugin: FlutterPlugin {
+/** TwogisFlutterPlugin */
+class TwogisFlutterPlugin: FlutterPlugin {
     override fun onAttachedToEngine(binding: FlutterPlugin.FlutterPluginBinding) {
         val messenger : BinaryMessenger = binding.binaryMessenger;
         binding

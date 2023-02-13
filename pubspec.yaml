@@ -1,4 +1,4 @@
-name: 2gis_flutter
+name: two_gis_flutter
 description: Plugin sdk 2gis
 version: 0.0.31
 repository: https://github.com/drixed/2gis_native
@@ -30,7 +30,7 @@ flutter:
     platforms:
       android:
         package: com.example.2gis_native
-        pluginClass: 2gisFlutterPlugin
+        pluginClass: TwogisFlutterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

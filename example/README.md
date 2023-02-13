@@ -1,6 +1,6 @@
-# dgis_flutter_example
+# two_gis_flutter_example
 
-Demonstrates how to use the dgis_flutter plugin.
+Demonstrates how to use the two_gis_flutter plugin.
 
 ## Getting Started
 

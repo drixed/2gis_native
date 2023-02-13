@@ -43,7 +43,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
-  dgis_flutter:
+  two_gis_flutter:
     dependency: "direct main"
     description:
       path: ".."
